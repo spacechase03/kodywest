@@ -86,7 +86,7 @@ button:hover {
     width: fit-content;
     height: 30px;
     transform: translate(-50%, -50%);
-    z-index: 9998;
+    z-index: 9999;
     
 }
 .icons a {
@@ -265,7 +265,7 @@ button:hover {
     max-width: 100%;
     max-height: 100%;
     overflow: none;
-    z-index: 9999;
+    z-index: 9998;
     
 }
 .slideshow {
@@ -523,7 +523,7 @@ h1 {
     width: 60vw;
     margin-left: 10vw;
     margin-top: 5vw;
-    z-index: 9999;
+    z-index: 9998;
 }
 .bit-play-my-city-button {
     border-radius: 50px;
@@ -561,7 +561,7 @@ h1 {
     height: 50px;
     position: relative;
     top: 119vh;
-    z-index: 9999;
+    z-index: 9998;
 }
 .music-container {
     display: flex;
@@ -572,7 +572,7 @@ h1 {
     position:  relative;
     /* left: 5vw; */
     top: 119vh;
-    z-index: 9999;
+    z-index: 9998;
 }
 .music-container .card {
     flex: 1;
@@ -620,12 +620,10 @@ h1 {
     margin-right: 1em;
 }
 
-
 /* Contact section */
 .contact-container {
     position: relative;
     top: 129vh;
-    z-index: 9999;
     height: 300px;
     width: 85%;
     left: 0;
@@ -636,6 +634,7 @@ h1 {
     max-width: 100%;
     max-height: 100%;
     overflow: none;
+    z-index: 9998;
 }
 .red {
     border: none;
@@ -663,10 +662,7 @@ h1 {
     color:rgba(190, 0, 0, 1)
 }
 
-  
-  
-
-
+/* Footer* */
 .footer {
     z-index: 9998;
     position: relative;
@@ -678,13 +674,12 @@ h1 {
     letter-spacing: 1px;
     position: absolute;
     right:0;
-    bottom: 0;
+    bottom: 30px;
     font-size: smaller;
-    z-index: 9998;
 }
 .footer button {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     left: 0;
 }
 
